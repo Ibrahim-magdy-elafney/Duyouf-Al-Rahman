@@ -1,0 +1,326 @@
+html {
+
+    scroll-behavior: smooth;
+
+}
+
+
+body {
+
+    background: #019c7d;
+    color: white;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+
+}
+
+@media (max-width: 768px) {
+
+
+    header {
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 10px;
+        padding: 15px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        text-align: center;
+
+    }
+
+}
+
+.box {
+
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    flex-direction: row;
+    width: 440px;
+    gap: 15px;
+
+    align-items: center;
+
+    color: #fff;
+    border: 1px solid rgb(216, 216, 4);
+    font-size: 8px;
+    margin-left: 3px;
+
+
+}
+
+
+
+.box li {
+    width: 100%;
+    text-align: center;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+.logo {
+
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    margin-right: 100px;
+
+}
+
+@media (max-width: 768px) {
+
+    section {
+        background: #015b49;
+        margin: 10px;
+        padding: 15px;
+        border-radius: 10px;
+    }
+
+    footer {
+
+        margin-left: 50px;
+        background: #015b49;
+        margin: 10px;
+        padding: 15px;
+        border-radius: 10px;
+
+    }
+
+}
+
+h1,
+h2,
+h3 {
+    color: white;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+
+}
+
+@media (max-width: 768px) {
+
+    h1 {
+        font-size: 28px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+}
+
+
+button {
+
+    background: #017cf6;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    width: fit-content;
+
+}
+
+@media (max-width: 768px) {
+    button {
+        width: 100%;
+    }
+}
+
+
+button:hover {
+
+    background: #024996;
+
+}
+
+.flex {
+
+    display: flex;
+    gap: 20px;
+    align-items: center;
+
+}
+
+@media (max-width: 768px) {
+
+    .flex {
+        flex-direction: column;
+        align-items: stretch;
+        text-align: center;
+    }
+
+}
+
+.text {
+
+    width: 100%;
+
+}
+
+img {
+
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+
+}
+
+@media (max-width: 768px) {
+    img {
+        max-height: 250px;
+        object-fit: cover;
+    }
+}
+
+.Note {
+
+    color: white;
+
+}
+
+select {
+
+    color: white;
+
+}
+
+.date {
+
+    color: white;
+
+}
+
+.time {
+
+    color: white;
+
+}
+
+.Username {
+
+    color: white;
+
+}
+
+
+.text {
+
+    color: white;
+
+}
+
+.email {
+
+    color: white;
+
+}
+
+label {
+
+    color: white;
+
+}
+
+.Facebook {
+
+    color: white;
+
+
+}
+
+.Designer {
+
+    color: white;
+
+}
+
+.box a {
+    color: white;
+    text-decoration: none;
+}
+
+
+
+.minbox {
+
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+
+    display: flex;
+    list-style: none;
+    padding: 0;
+
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+    width: 300px;
+    font-size: 11px;
+
+    color: #fff;
+    margin-left: 20px;
+
+}
+
+.minbox a {
+
+    color: white;
+    text-decoration: none;
+
+}
+
+.He {
+
+    display: flex;
+    align-self: flex-start;
+    margin-bottom: 100px;
+
+}
+
+.Ab {
+
+    display: flex;
+    align-self: flex-end;
+    margin-top: 100px;
+
+}
+
+.Pr {
+
+    display: flex;
+    margin-bottom: 100px;
+    justify-content: space-between;
+    margin-right: 50px;
+
+}
+
+
+.menu-card {
+    display: flex;
+    gap: 20px;
+}
+
+@media (max-width: 768px) {
+    .menu-card {
+        flex-direction: column;
+    }
+}

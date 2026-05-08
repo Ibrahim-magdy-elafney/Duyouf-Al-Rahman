@@ -84,7 +84,7 @@ ${time2 || "غير محدد"}
 ${messageField || "لا يوجد"}`;
 
     // رقم واتساب صاحب المكتب
-    const phone = "201080407065";
+    const phone = "201006886643";
 
     // إنشاء رابط الواتساب
     const url = `https://wa.me/${phone}?text=${encodeURIComponent(message)}`;

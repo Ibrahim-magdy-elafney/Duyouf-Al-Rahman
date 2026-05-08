@@ -21,7 +21,7 @@ form.addEventListener("submit", function (e) {
     const time2 = document.querySelectorAll(".time")[1].value;
 
     // تحقق من البيانات
-    if (!name || !email || !phoneNumber || !date1 || !time1) {
+    if (!name || !phoneNumber || !date1 || !time1) {
 
         result.style.color = "red";
         result.innerText = "من فضلك املي كل البيانات الأساسية!";
@@ -84,7 +84,7 @@ ${time2 || "غير محدد"}
 ${messageField || "لا يوجد"}`;
 
     // رقم واتساب صاحب المكتب
-    const phone = "201006886643";
+    const phone = "201080407065";
 
     // إنشاء رابط الواتساب
     const url = `https://wa.me/${phone}?text=${encodeURIComponent(message)}`;

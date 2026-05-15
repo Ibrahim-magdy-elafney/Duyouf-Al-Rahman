@@ -176,7 +176,7 @@ button:hover {
 
     align-items: center;
 
-    gap: 6px;
+    gap: 3px;
 
 }
 
@@ -207,6 +207,7 @@ img {
     height: 60px;
     margin: 0;
     padding: 0;
+
 
 
 }

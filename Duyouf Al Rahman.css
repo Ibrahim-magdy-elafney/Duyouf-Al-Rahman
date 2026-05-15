@@ -176,7 +176,8 @@ button:hover {
 
     align-items: center;
 
-    gap: 6px;
+    gap: 2px;
+
 
 }
 
@@ -186,7 +187,7 @@ button:hover {
 
     align-items: center;
 
-    gap: 6px;
+    gap: 8px;
 
     justify-content: flex-start;
 
@@ -225,14 +226,13 @@ img {
 
 .airplane {
 
-    width: 60px;
-    height: 60px;
+    width: 140px;
+    height: 140px;
     margin: 0;
     padding: 0;
     object-fit: contain;
 
     border-radius: 0;
-
 
 }
 

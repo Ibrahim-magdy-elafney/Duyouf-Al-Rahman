@@ -169,6 +169,17 @@ button:hover {
 
 }
 
+
+.header-flex {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 6px;
+
+}
+
 .text {
 
     width: 100%;
@@ -188,6 +199,16 @@ img {
         max-height: 250px;
         object-fit: cover;
     }
+}
+
+.airplane {
+
+    width: 60px;
+    height: 60px;
+    margin: 0;
+    padding: 0;
+
+
 }
 
 .Note {

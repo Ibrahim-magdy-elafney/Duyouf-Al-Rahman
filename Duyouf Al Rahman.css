@@ -176,7 +176,29 @@ button:hover {
 
     align-items: center;
 
-    gap: 3px;
+    gap: 6px;
+
+}
+
+.section-flex {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 6px;
+
+    justify-content: flex-start;
+
+}
+
+.title-with-icon {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 6px;
 
 }
 
@@ -207,8 +229,20 @@ img {
     height: 60px;
     margin: 0;
     padding: 0;
+    object-fit: contain;
+
+    border-radius: 0;
 
 
+}
+
+.airplane2 {
+
+    width: 60px;
+    height: 60px;
+    margin: 0;
+    padding: 0;
+    object-fit: contain;
 
 }
 
@@ -333,16 +367,4 @@ label {
     justify-content: space-between;
     margin-right: 50px;
 
-}
-
-
-.menu-card {
-    display: flex;
-    gap: 20px;
-}
-
-@media (max-width: 768px) {
-    .menu-card {
-        flex-direction: column;
-    }
 }

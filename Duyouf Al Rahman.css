@@ -253,14 +253,7 @@ select {
 
 }
 
-.date {
-
-    color: white;
-    text-align: center;
-
-}
-
-.time {
+.Number {
 
     color: white;
     text-align: center;
@@ -280,7 +273,7 @@ select {
     min-height: 80px;
 
     color: white;
-    background: #fff;
+    background: #1a1a1a;
     border: 1px solid rgb(216, 216, 4);
 
     border-radius: 5px;
@@ -292,6 +285,27 @@ select {
 }
 
 .email {
+
+    color: white;
+    text-align: center;
+
+}
+
+.date {
+
+    color: white;
+    text-align: center;
+
+}
+
+.time {
+
+    color: white;
+    text-align: center;
+
+}
+
+.phone {
 
     color: white;
     text-align: center;

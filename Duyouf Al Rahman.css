@@ -246,46 +246,55 @@ img {
 
 }
 
-.Note {
-
-    color: white;
-
-}
-
 select {
 
     color: white;
+    text-align: center;
 
 }
 
 .date {
 
     color: white;
+    text-align: center;
 
 }
 
 .time {
 
     color: white;
+    text-align: center;
 
 }
 
 .Username {
 
     color: white;
+    text-align: center;
 
 }
 
+.message-box {
 
-.text {
+    width: 165px;
+    min-height: 80px;
 
     color: white;
+    background: #fff;
+    border: 1px solid rgb(216, 216, 4);
+
+    border-radius: 5px;
+
+    text-align: center;
+
+    resize: vertical;
 
 }
 
 .email {
 
     color: white;
+    text-align: center;
 
 }
 
@@ -312,8 +321,6 @@ label {
     color: white;
     text-decoration: none;
 }
-
-
 
 .minbox {
 
